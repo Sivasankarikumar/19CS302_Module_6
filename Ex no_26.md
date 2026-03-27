@@ -15,7 +15,7 @@ To write a C program to demonstrate a self-referential structure where an employ
 #include <stdio.h>
 #include <stdlib.h>
 struct Employee {
- int empID;
+ int empID; 
  char name[50];
  struct Employee *manager; };
 int main() {
